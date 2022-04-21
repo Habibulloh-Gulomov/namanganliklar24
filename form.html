@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+  <header>
+    <section class="header-top">
+      <h2 class="visually-hidden">third page</h2>
+      <div class="container header-top">
+      <a href="#"><img class="site-logo" src="./img/NAMANGANLIKLAR24logo.svg" alt="there is logo of site"></a>
+      <ul class="currency-list">
+        <li class="currency-item">
+          <span class="dollor-rubl">$</span>10137.2
+        </li>
+        <li class="currency-item">
+          <span class="dollor-rubl">P</span>138.26
+        </li>
+      </ul>
+      <form action="#" method="POST">
+        <label title="search">
+          <input  name="search" type="search" placeholder="Поиск" class="header-form">
+        </label>
+      </form>
+      <div class="languages">
+        
+        <a class="language-item active" href="#">УЗ</a>
+        <a class="language-item" href="#">РУ</a>
+      </div>
+      <a class="login" href="#">Войти</a>
+      </div>
+    </section>
+
+    <section class="header-center">
+      <div class="container">
+      <h2 class="visually-hidden">there is you choose type of news</h2>
+      <ul class="site-type">
+        <li class="site-list"><a href="#" class="center-link"> Главное</a></li>
+        <li class="site-list"><a href="#" class="center-link">Интересное</a></li>
+        <li class="site-list"><a href="#" class="center-link">Экономика</a></li>
+        <li class="site-list"><a href="#" class="center-link">Политика</a></li>
+        <li class="site-list"><a href="#" class="center-link">Общество</a></li>
+        <li class="site-list"><a href="#" class="center-link">Технологии</a></li>
+        <li class="site-list"><a href="#" class="center-link">Спорт</a></li>
+        <li class="site-list"><a href="#" class="center-link">Культура</a></li>
+        <li class="site-list"><a href="#" class="center-link">Происшествия</a></li>
+        <li class="site-list"><a href="#" class="center-link">Наука</a></li>
+      </ul>
+      </div>
+    </section>
+  </header>
+
+  <main class="container">
+    <h2>Напишите нам</h2>
+     <section class="form-main-section">
+       <div class="main-section-left">
+         <form class="main-left-top">
+           <label title="your name">
+           <input type="text" placeholder="Имя" name="user-name"  class="main-left-top-input" required></label>
+           <label title="your-number">
+           <input type="tel"  placeholder="Номер телефона" name="user-number"  minlength="7" maxlength="13"  class="main-left-top-input" required></label>
+         </form>
+
+         <form action="#">
+           <label title="your email">
+           <input class="form-main-bottom-email" type="email" required
+           name="user_email" placeholder="Электронная почта"></label>
+         </form>
+         <textarea placeholder="Текст" name="text"  cols="87" rows="11"></textarea>
+         <button type="submit" class="send-button">Отправить</button>
+       </div>
+       <ul class="burn-news-list">
+            <li class="burn-news-list-item">
+              <h3 class="burn-news-list-item-title">
+                <a href="#" class="burn-news-list-item-title-link">В Электронная почта</a>
+              </h3>
+              <p class="burn-news-list-item-text">info@namanganliklar24.uz</p>
+            </li>
+
+            <li class="burn-news-list-item">
+              <h3 class="burn-news-list-item-title">
+                <a href="#" class="burn-news-list-item-title-link">Номер телефона</a>
+              </h3>
+              <p class="burn-news-list-item-text"> +998 88 522-54-76</p>
+            </li>
+
+            <li class="burn-news-list-item">
+              <h3 class="burn-news-list-item-title">
+                <a href="#" class="burn-news-list-item-title-link">В Адрес</a>
+              </h3>
+              <p class="burn-news-list-item-text">Ташкент, площадь Мустакиллик, 6 </p>
+            </li>
+          </ul>
+     </section>
+  </main>
+
+  <footer class="footer">
+    <section class="footer-section">
+      <h2 class="visually-hidden">site footer-start</h2>
+     <a href="./index.html" class="footer-site-logo"><img src="./img/footerlogo.svg.svg" alt="site-logo" class="footer-site-logo-img"></a>
+     <div class="footer-top">
+       <div class="footer-top-div-for-text">
+      <p class="footer-top-text">Воспроизводство, копирование, использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.
+      </p>
+    </div>
+      <ul class="footer-top-list">
+        <li class="footer-top-list-item">Информация о сайте
+          <ul class="list-item-list">
+            <li class="list-item-list-service">Напишите нам</li>
+            <li class="list-item-list-service">Реклама</li>
+            <li class="list-item-list-service">Прислать новость</li>
+          </ul>
+        </li>
+        <li class="footer-top-list-item">Использование материалов
+          <ul class="list-item-list">
+            <li class="list-item-list-service">Темы дня</li>
+            <li class="list-item-list-service">Наша команда</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-bottom">     
+        <a href="#" class="footer-bottom-link">Наши социальные сети</a>
+        <ul class="footer-bottom-apps">
+          <li class="footer-list-item-apps">
+            <a href="#" class="footer-apps">
+              <img src="./img/facebook.png" alt="facebook" class="footer-app-img"></a></li>
+
+          <li class="footer-list-item-apps">
+                <a href="#" class="footer-apps">
+                  <img src="./img/insta.png" alt="instagram" class="footer-app-img"></a></li>
+
+          <li class="footer-list-item-apps">
+                    <a href="#" class="footer-apps">
+                      <img src="./img/telegram.png" alt="telegram" class="footer-app-img"></a></li>
+           <li class="footer-list-item-apps">
+                     <a href="#" class="footer-apps">
+                       <img src="./img/youtube.png" alt="you tube" class="footer-app-img" width="25" height="25"></a></li>
+        </ul>
+    </div>
+  </section>
+  </footer>
+</body>
+</html>
